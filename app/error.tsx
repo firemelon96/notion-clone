@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Error = () => {
   return (
-    <div>
+    <div className='h-full flex flex-col items-center justify-center gap-3'>
       <Image
         src='/error.png'
         height='300'
