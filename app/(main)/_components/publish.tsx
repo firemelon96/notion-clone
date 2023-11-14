@@ -81,7 +81,7 @@ export const Publish = ({ initialData }: PublishProps) => {
             <div className='flex items-center gap-x-2'>
               <Globe className='text-sky-500 animate-pulse h-4 w-4' />
               <p className='text-xs font-medium text-sky-500'>
-                THis note is live on web.
+                This note is live on web.
               </p>
             </div>
             <div className='flex items-center'>
@@ -121,7 +121,9 @@ export const Publish = ({ initialData }: PublishProps) => {
               onClick={onPublish}
               size='sm'
               className='w-full text-xs'
-            ></Button>
+            >
+              Publish
+            </Button>
           </div>
         )}
       </PopoverContent>
