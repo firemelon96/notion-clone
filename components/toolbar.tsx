@@ -117,7 +117,10 @@ export const Toolbar = ({ initialData, preview }: ToolbarProps) => {
           className='text-5xl bg-transparent font-bold break-words outline-none text-[#3f3f3f] dark:text-[#cfcfcf] resize-none'
         />
       ) : (
-        <div className='pb-[11.5px] text-5xl font-bold break-words outline-none text-[#3f3f3f] dark:text-[#cfcfcf]'>
+        <div
+          onClick={enableInput}
+          className='pb-[11.5px] text-5xl font-bold break-words outline-none text-[#3f3f3f] dark:text-[#cfcfcf]'
+        >
           {initialData.title}
         </div>
       )}
